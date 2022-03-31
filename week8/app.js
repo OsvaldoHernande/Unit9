@@ -5,10 +5,11 @@ function askName() {
 
 function greet(a) { // parameter
    var can = prompt(`Welcome ${a} here enter a tempature you would like. Press 'F' for Fº to Cº or Press 'C' for Cº to Fº`)
-
+   return can
 }
 
 greet(askName())
+
 
 function game(x) {
     var ran = ((x - 32) * 5) / 9
@@ -22,7 +23,6 @@ function userName() {
 
 function Numbersgame(human, name) {
     alert(`Your tempature is ${human}Fº and Your Tempature is ${name}Cº`)
-
 }
 
 function program() {
