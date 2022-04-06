@@ -13,7 +13,7 @@ function user(a) {
 }
 
 user(askName())
-
+  
 function math() {
     var ran = Math.floor(Math.random() * 10) + 1;
     return ran

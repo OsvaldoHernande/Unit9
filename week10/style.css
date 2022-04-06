@@ -1,0 +1,30 @@
+.getNumber {
+    font-size: 22px;
+    text-align: center;
+}
+
+.inputNumberBox {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin-left: 20px;
+    background-color: rgb(73, 138, 138);
+    color: white;
+    padding: 30px;
+}
+
+.header {
+    background-color: rgb(90, 104, 104);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.instructions {
+    background-color: rgb(75, 99, 202);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
