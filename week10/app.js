@@ -43,7 +43,7 @@ function compareNumbers() {
         c.style.backgroundColor = "Gray";
         c.style.padding = "20px";
         c.style.textAlign = "center";
-        document.querySelector("body").style.backgroundColor = "light red";
+        document.querySelector("body").style.backgroundColor = "red";
 
 
     } else if (a == b) {
@@ -58,7 +58,7 @@ function compareNumbers() {
         c.style.padding = "20px";
         c.style.textAlign = "center";
         counter = 0;
-        document.querySelector("body").style.backgroundColor = "light green";
+        document.querySelector("body").style.backgroundColor = "green";
     }
 
     resetInput();

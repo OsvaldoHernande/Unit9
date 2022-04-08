@@ -1,4 +1,4 @@
-.getNumber {
+#getNumber {
     font-size: 22px;
     text-align: center;
 }
@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.paragraph {
+#paragraph {
     margin-left: 20px;
     background-color: rgb(73, 138, 138);
     color: white;
