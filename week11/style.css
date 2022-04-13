@@ -1,0 +1,34 @@
+#card > img {
+    height: 300px;
+    width: 220px;
+}
+
+#paragraph {
+    background-color: rgb(26, 218, 26);
+    padding: 30px;
+    margin-right: 1200px;
+    justify-content: left;
+    text-align: center;
+}
+
+#Click {
+    background-color: rgb(161, 5, 5);
+    padding: 30px;
+    margin-right: 1200px;
+    justify-content: left;
+    text-align: center;
+}
+
+#Time {
+    background-color: rgb(243, 243, 9);
+    padding: 30px;
+    margin-right: 1200px;
+    justify-content: left;
+    text-align: center;
+}
+
+#card {
+    justify-content: center;
+    text-align: center;
+}
+

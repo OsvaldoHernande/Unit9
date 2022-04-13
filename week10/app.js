@@ -47,7 +47,7 @@ function compareNumbers() {
 
 
     } else if (a == b) {
-        z.innerHTML = "Numbers are the same. Computer got"  + b + ", and user got"  + a;
+        z.innerHTML = "Numbers are the same. Computer got"  + b +  ", and user got"   + a;
         z.style.color = "white";
         z.style.backgroundColor = "green";
         z.style.padding = "20px";
