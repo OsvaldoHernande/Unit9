@@ -1,6 +1,6 @@
 #card > img {
-    height: 300px;
-    width: 220px;
+    height: 200px;
+    width: 150px;
 }
 
 #paragraph {
@@ -28,6 +28,16 @@
 }
 
 #card {
+    justify-content: center;
+    text-align: center;
+}
+
+#Deck > img {
+    height: 200px;
+    width: 150px;
+}
+
+#Deck {
     justify-content: center;
     text-align: center;
 }
