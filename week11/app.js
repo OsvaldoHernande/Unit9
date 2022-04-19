@@ -1,6 +1,7 @@
 function run() {
     getCard()  
     computerNumber()
+    CompareNumbers()
 }
 
 var u = 0;
@@ -37,5 +38,40 @@ function computerNumber() {
     return i
 
     } while (i < 16) 
+}
+
+function CompareNumbers() {
+    let c = getCard()
+    let l = computerNumber()
+    let h = document.getElementById("compare")
+
+    if (c > l) {
+        h.innerHTML = "Human wins";
+        h.style.textAlign = "center";
+        h.style.color = "white"
+    } else {
+        h.innerHTML = "Computer wins";
+        h.style.textAlign = "center";
+        h.style.color = "white"
+    }
+
+    if (c > 20) {
+        h.innerHTML = "Computer wins";
+        h.style.textAlign = "center";
+        h.style.color = "white"
+    }
+
+    if (l > 20) {
+        h.innerHTML = "Human wins";
+        h.style.textAlign = "center";
+        h.style.color = "white" 
+    }
+
+    if (l == c) {
+        h.innerHTML = "Tie";
+        h.style.textAlign = "center";
+        h.style.color = "white" 
+    }
+
 }
 
